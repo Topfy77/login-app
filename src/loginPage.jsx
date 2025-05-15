@@ -38,7 +38,7 @@ export default function LoginPage() {
       if (username === 'top@gmail.com' && password === '12345678') {
         navigate('/home'); 
       } else {
-        setErrorMessage(' ອີເມລ ຫລື ລະຫັດຜ່ານບໍ່ຖືກຈ້ອງ');
+        setErrorMessage(' ອີເມລ ຫລື ລະຫັດຜ່ານບໍ່ຖືກຕ້ອງ');
       }
     }, 2000);
   };
@@ -137,7 +137,7 @@ export default function LoginPage() {
               error={!isPasswordValid && password.length > 0}
               helperText={
                 !isPasswordValid && password.length > 0
-                  ? 'Password must be at least 8 characters'
+                  ? 'ກະລຸນາພີມຕົວເລກ ຫຼື ຕົວໜັງສື ໄຫ້ບໍ່ຕ່ຳກວ່າ 8'
                   : ''
               }
               sx={{ mb: 2 }}
