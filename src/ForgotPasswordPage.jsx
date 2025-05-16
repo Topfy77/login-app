@@ -28,7 +28,7 @@ export default function ForgotPasswordPage() {
 
           {submitted ? (
             <Typography color="green" align="center">
-              We've sent a reset link to your email.
+              ພວກເຮົາໄດ້ສົ່ງລີ້ງເເບບຟອມໃປໃນອີເມລຂອງທ່ານເເລ້ວ.
             </Typography>
           ) : (
             <>
