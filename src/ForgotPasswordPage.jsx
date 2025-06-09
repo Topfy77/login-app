@@ -29,7 +29,7 @@ export default function ForgotPasswordPage() {
           {submitted ? (
             <Typography color="green" align="center">
               ພວກເຮົາໄດ້ສົ່ງລີ້ງເເບບຟອມໃປໃນອີເມລຂອງທ່ານເເລ້ວ.
-            </Typography>
+            </Typography> 
           ) : (
             <>
               <TextField
