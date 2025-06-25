@@ -15,7 +15,6 @@ import {
 } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 
-// เปลี่ยนเป็น named export เพื่อไม่ชนกับ default export ในไฟล์เดียวกัน
 export function HoverButton() {
   return (
     <Button
@@ -50,6 +49,7 @@ export const ShowProduct = () => {
       <Table>
         <TableHead sx={{ bgcolor: 'primary.light' }}>
           <TableRow>
+            <TableCell>id</TableCell>
             <TableCell>id</TableCell>
             <TableCell>Product</TableCell>
             <TableCell>price</TableCell>
